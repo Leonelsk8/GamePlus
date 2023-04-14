@@ -1,0 +1,45 @@
+/* Variables Generales */
+:root {
+    --nb-blue: #0A2647;
+    --bg-blue: #144272;
+    --cdm-blue: #205295;
+    --btn-blue: #2C74B3;
+    --bg-footer: #444547;
+  }  
+
+.img-login {
+    width: 25px;
+}
+
+.logo {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  width: 200px;
+}
+
+.eye-pos {
+  right: 2%;
+  top: 14%
+}
+
+.eye-pos:hover {
+  color: var(--btn-blue)
+}
+
+#formatoInvalido, #emailNoDisp, #emailDisp, #noCoincide {
+  font-size: 15px;
+}
+
+.btn-loginG, .btn-loginF{
+  border: solid #5e5e5e 1px;
+}
+
+.btn-loginG:hover{
+  background-color: rgba(195, 8, 8, 0.708);
+  border: solid #ffffffc9 1px;
+}
+
+.btn-loginF:hover{
+  background-color: rgba(8, 105, 195, 0.708);
+  border: solid #ffffffc9 1px;
+}

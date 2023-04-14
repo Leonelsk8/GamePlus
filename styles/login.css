@@ -1,0 +1,54 @@
+body{
+  font-family: 'Crimson Text', serif;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #144272;
+}
+
+.inputLog{
+  caret-color: blue;
+}
+
+
+.inputLog:hover{
+  border: 1px solid #2C74B3;
+}
+
+.inputModal{
+  caret-color: blue;
+  width: 300px;
+  height: 40px;
+}
+
+.inputModal:hover{
+  border: 1px solid #2C74B3;
+}
+
+.buttonModal{
+  background:#2C74B3;
+  
+}
+
+.buttonModal:hover{
+  background:#0A2647;
+}
+
+.newPass{
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.newPass:hover{
+  color: rgb(184, 184, 184) !important;
+}
+
+.button-close{
+  background-color: #205295;
+
+}
+
+.img{
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  width: 200px;
+}
+
